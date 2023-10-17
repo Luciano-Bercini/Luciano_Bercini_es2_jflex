@@ -1,0 +1,10 @@
+// Let's do this analysis.
+/* 
+This line should be ignored.
+And this line, too.
+*/
+int a = 15000;
+int b = 300;
+int c = (a * b);;
+// Let's do something we shouldn't do, we should get an error with line and column.
+int e = ?;
